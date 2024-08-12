@@ -1,0 +1,29 @@
+{
+  "name": "groq-suggestions",
+  "main": "./lib/main",
+  "version": "0.4.0",
+  "description": "Package for inserting code generated with groq.",
+  "keywords": [
+    "groq",
+    "suggestions",
+    "completions"
+  ],
+  "repository": "https://github.com/enrilohm/qroq-suggestions",
+  "author": "Enrico Lohmann <enrilohm@pm.me>",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "configSchema": {
+    "api_key": {
+      "description": "Your groq api key",
+      "type": "string",
+      "default": ""
+    }
+  },
+  "activationCommands": {
+    "atom-workspace": [
+      "groq:trigger-autocomplete"
+    ]
+  }
+}
