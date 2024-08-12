@@ -23,7 +23,7 @@
   },
   "activationCommands": {
     "atom-workspace": [
-      "groq:trigger-autocomplete"
+      "groq-suggestions:trigger-autocomplete"
     ]
   }
 }
